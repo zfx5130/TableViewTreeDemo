@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="UserOrderManageCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="126" height="47"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="126" height="47"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="i7e-s2-egJ">
+                        <rect key="frame" x="4" y="0.0" width="118" height="47"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.33725490196078434" green="0.33725490196078434" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FQr-D6-gIq">
+                        <rect key="frame" x="45" y="45" width="35" height="2"/>
+                        <color key="backgroundColor" red="0.98431372549019602" green="0.2627450980392157" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="IJF-nu-wsK"/>
+                            <constraint firstAttribute="height" constant="2" id="nJi-TE-SKC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="i7e-s2-egJ" secondAttribute="trailing" constant="4" id="3Nk-UI-83l"/>
+                <constraint firstItem="FQr-D6-gIq" firstAttribute="centerX" secondItem="i7e-s2-egJ" secondAttribute="centerX" id="4s1-V7-vtF"/>
+                <constraint firstItem="i7e-s2-egJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ka8-n4-DBN"/>
+                <constraint firstAttribute="bottom" secondItem="i7e-s2-egJ" secondAttribute="bottom" id="Umz-qX-XAi"/>
+                <constraint firstAttribute="bottom" secondItem="FQr-D6-gIq" secondAttribute="bottom" id="cfZ-aI-Rjx"/>
+                <constraint firstItem="i7e-s2-egJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="dxg-Um-tAP"/>
+            </constraints>
+            <size key="customSize" width="126" height="47"/>
+            <connections>
+                <outlet property="lineView" destination="FQr-D6-gIq" id="A2Y-gk-GzR"/>
+                <outlet property="titleLabel" destination="i7e-s2-egJ" id="2Se-Zh-GAo"/>
+            </connections>
+            <point key="canvasLocation" x="566" y="469.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

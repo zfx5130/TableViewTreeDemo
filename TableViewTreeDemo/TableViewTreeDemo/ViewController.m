@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UserOrderManagerViewController.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - handlers
+
+- (IBAction)handleButtonWasPressed:(UIButton *)sender {
+    UserOrderManagerViewController *orderController = [[UserOrderManagerViewController alloc] init];
+    [self.navigationController pushViewController:orderController animated:YES];
+}
+
 
 @end

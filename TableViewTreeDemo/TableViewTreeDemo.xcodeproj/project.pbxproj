@@ -15,6 +15,20 @@
 		849CBF591DB093D100DC7959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849CBF571DB093D100DC7959 /* LaunchScreen.storyboard */; };
 		849CBF641DB093D100DC7959 /* TableViewTreeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF631DB093D100DC7959 /* TableViewTreeDemoTests.m */; };
 		849CBF6F1DB093D100DC7959 /* TableViewTreeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF6E1DB093D100DC7959 /* TableViewTreeDemoUITests.m */; };
+		849CBF7F1DB0ADB800DC7959 /* UserOrderManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF7D1DB0ADB800DC7959 /* UserOrderManagerViewController.m */; };
+		849CBF801DB0ADB800DC7959 /* UserOrderManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849CBF7E1DB0ADB800DC7959 /* UserOrderManagerViewController.xib */; };
+		849CBF8B1DB0B0C300DC7959 /* WSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF831DB0B0C300DC7959 /* WSTableView.m */; };
+		849CBF8C1DB0B0C300DC7959 /* WSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF851DB0B0C300DC7959 /* WSTableViewCell.m */; };
+		849CBF8D1DB0B0C300DC7959 /* WSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF871DB0B0C300DC7959 /* WSTableViewCellIndicator.m */; };
+		849CBF8E1DB0B0C300DC7959 /* WSTableviewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF891DB0B0C300DC7959 /* WSTableviewDataModel.m */; };
+		849CBF971DB0B34000DC7959 /* UserOrderManageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF951DB0B34000DC7959 /* UserOrderManageCollectionViewCell.m */; };
+		849CBF981DB0B34000DC7959 /* UserOrderManageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849CBF961DB0B34000DC7959 /* UserOrderManageCollectionViewCell.xib */; };
+		849CBF9C1DB0C21B00DC7959 /* UserOrderManageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF9A1DB0C21B00DC7959 /* UserOrderManageTableViewCell.m */; };
+		849CBF9D1DB0C21B00DC7959 /* UserOrderManageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849CBF9B1DB0C21B00DC7959 /* UserOrderManageTableViewCell.xib */; };
+		849CBFA11DB0C77D00DC7959 /* UserOrderProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBF9F1DB0C77D00DC7959 /* UserOrderProductTableViewCell.m */; };
+		849CBFA21DB0C77D00DC7959 /* UserOrderProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849CBFA01DB0C77D00DC7959 /* UserOrderProductTableViewCell.xib */; };
+		849CBFA61DB0D47500DC7959 /* UserOrderPayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CBFA41DB0D47500DC7959 /* UserOrderPayTableViewCell.m */; };
+		849CBFA71DB0D47500DC7959 /* UserOrderPayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849CBFA51DB0D47500DC7959 /* UserOrderPayTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,30 @@
 		849CBF6A1DB093D100DC7959 /* TableViewTreeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTreeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849CBF6E1DB093D100DC7959 /* TableViewTreeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTreeDemoUITests.m; sourceTree = "<group>"; };
 		849CBF701DB093D100DC7959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849CBF7C1DB0ADB800DC7959 /* UserOrderManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOrderManagerViewController.h; sourceTree = "<group>"; };
+		849CBF7D1DB0ADB800DC7959 /* UserOrderManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOrderManagerViewController.m; sourceTree = "<group>"; };
+		849CBF7E1DB0ADB800DC7959 /* UserOrderManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserOrderManagerViewController.xib; sourceTree = "<group>"; };
+		849CBF821DB0B0C300DC7959 /* WSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableView.h; sourceTree = "<group>"; };
+		849CBF831DB0B0C300DC7959 /* WSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableView.m; sourceTree = "<group>"; };
+		849CBF841DB0B0C300DC7959 /* WSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableViewCell.h; sourceTree = "<group>"; };
+		849CBF851DB0B0C300DC7959 /* WSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableViewCell.m; sourceTree = "<group>"; };
+		849CBF861DB0B0C300DC7959 /* WSTableViewCellIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableViewCellIndicator.h; sourceTree = "<group>"; };
+		849CBF871DB0B0C300DC7959 /* WSTableViewCellIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableViewCellIndicator.m; sourceTree = "<group>"; };
+		849CBF881DB0B0C300DC7959 /* WSTableviewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewDataModel.h; sourceTree = "<group>"; };
+		849CBF891DB0B0C300DC7959 /* WSTableviewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableviewDataModel.m; sourceTree = "<group>"; };
+		849CBF8A1DB0B0C300DC7959 /* WSTableviewTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewTree.h; sourceTree = "<group>"; };
+		849CBF941DB0B34000DC7959 /* UserOrderManageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOrderManageCollectionViewCell.h; sourceTree = "<group>"; };
+		849CBF951DB0B34000DC7959 /* UserOrderManageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOrderManageCollectionViewCell.m; sourceTree = "<group>"; };
+		849CBF961DB0B34000DC7959 /* UserOrderManageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserOrderManageCollectionViewCell.xib; sourceTree = "<group>"; };
+		849CBF991DB0C21B00DC7959 /* UserOrderManageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOrderManageTableViewCell.h; sourceTree = "<group>"; };
+		849CBF9A1DB0C21B00DC7959 /* UserOrderManageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOrderManageTableViewCell.m; sourceTree = "<group>"; };
+		849CBF9B1DB0C21B00DC7959 /* UserOrderManageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserOrderManageTableViewCell.xib; sourceTree = "<group>"; };
+		849CBF9E1DB0C77D00DC7959 /* UserOrderProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOrderProductTableViewCell.h; sourceTree = "<group>"; };
+		849CBF9F1DB0C77D00DC7959 /* UserOrderProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOrderProductTableViewCell.m; sourceTree = "<group>"; };
+		849CBFA01DB0C77D00DC7959 /* UserOrderProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserOrderProductTableViewCell.xib; sourceTree = "<group>"; };
+		849CBFA31DB0D47500DC7959 /* UserOrderPayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOrderPayTableViewCell.h; sourceTree = "<group>"; };
+		849CBFA41DB0D47500DC7959 /* UserOrderPayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOrderPayTableViewCell.m; sourceTree = "<group>"; };
+		849CBFA51DB0D47500DC7959 /* UserOrderPayTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserOrderPayTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +139,27 @@
 		849CBF481DB093D100DC7959 /* TableViewTreeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				849CBF811DB0B0C300DC7959 /* WSTableViewTree */,
 				849CBF4C1DB093D100DC7959 /* AppDelegate.h */,
 				849CBF4D1DB093D100DC7959 /* AppDelegate.m */,
 				849CBF4F1DB093D100DC7959 /* ViewController.h */,
 				849CBF501DB093D100DC7959 /* ViewController.m */,
 				849CBF521DB093D100DC7959 /* Main.storyboard */,
+				849CBF7C1DB0ADB800DC7959 /* UserOrderManagerViewController.h */,
+				849CBF7D1DB0ADB800DC7959 /* UserOrderManagerViewController.m */,
+				849CBF7E1DB0ADB800DC7959 /* UserOrderManagerViewController.xib */,
+				849CBF941DB0B34000DC7959 /* UserOrderManageCollectionViewCell.h */,
+				849CBF951DB0B34000DC7959 /* UserOrderManageCollectionViewCell.m */,
+				849CBF961DB0B34000DC7959 /* UserOrderManageCollectionViewCell.xib */,
+				849CBF991DB0C21B00DC7959 /* UserOrderManageTableViewCell.h */,
+				849CBF9A1DB0C21B00DC7959 /* UserOrderManageTableViewCell.m */,
+				849CBF9B1DB0C21B00DC7959 /* UserOrderManageTableViewCell.xib */,
+				849CBF9E1DB0C77D00DC7959 /* UserOrderProductTableViewCell.h */,
+				849CBF9F1DB0C77D00DC7959 /* UserOrderProductTableViewCell.m */,
+				849CBFA01DB0C77D00DC7959 /* UserOrderProductTableViewCell.xib */,
+				849CBFA31DB0D47500DC7959 /* UserOrderPayTableViewCell.h */,
+				849CBFA41DB0D47500DC7959 /* UserOrderPayTableViewCell.m */,
+				849CBFA51DB0D47500DC7959 /* UserOrderPayTableViewCell.xib */,
 				849CBF551DB093D100DC7959 /* Assets.xcassets */,
 				849CBF571DB093D100DC7959 /* LaunchScreen.storyboard */,
 				849CBF5A1DB093D100DC7959 /* Info.plist */,
@@ -138,6 +192,22 @@
 				849CBF701DB093D100DC7959 /* Info.plist */,
 			);
 			path = TableViewTreeDemoUITests;
+			sourceTree = "<group>";
+		};
+		849CBF811DB0B0C300DC7959 /* WSTableViewTree */ = {
+			isa = PBXGroup;
+			children = (
+				849CBF821DB0B0C300DC7959 /* WSTableView.h */,
+				849CBF831DB0B0C300DC7959 /* WSTableView.m */,
+				849CBF841DB0B0C300DC7959 /* WSTableViewCell.h */,
+				849CBF851DB0B0C300DC7959 /* WSTableViewCell.m */,
+				849CBF861DB0B0C300DC7959 /* WSTableViewCellIndicator.h */,
+				849CBF871DB0B0C300DC7959 /* WSTableViewCellIndicator.m */,
+				849CBF881DB0B0C300DC7959 /* WSTableviewDataModel.h */,
+				849CBF891DB0B0C300DC7959 /* WSTableviewDataModel.m */,
+				849CBF8A1DB0B0C300DC7959 /* WSTableviewTree.h */,
+			);
+			path = WSTableViewTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +313,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849CBFA21DB0C77D00DC7959 /* UserOrderProductTableViewCell.xib in Resources */,
+				849CBF801DB0ADB800DC7959 /* UserOrderManagerViewController.xib in Resources */,
 				849CBF591DB093D100DC7959 /* LaunchScreen.storyboard in Resources */,
 				849CBF561DB093D100DC7959 /* Assets.xcassets in Resources */,
+				849CBF981DB0B34000DC7959 /* UserOrderManageCollectionViewCell.xib in Resources */,
+				849CBF9D1DB0C21B00DC7959 /* UserOrderManageTableViewCell.xib in Resources */,
+				849CBFA71DB0D47500DC7959 /* UserOrderPayTableViewCell.xib in Resources */,
 				849CBF541DB093D100DC7959 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +345,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849CBF8D1DB0B0C300DC7959 /* WSTableViewCellIndicator.m in Sources */,
+				849CBFA11DB0C77D00DC7959 /* UserOrderProductTableViewCell.m in Sources */,
+				849CBF8E1DB0B0C300DC7959 /* WSTableviewDataModel.m in Sources */,
+				849CBF7F1DB0ADB800DC7959 /* UserOrderManagerViewController.m in Sources */,
 				849CBF511DB093D100DC7959 /* ViewController.m in Sources */,
+				849CBF971DB0B34000DC7959 /* UserOrderManageCollectionViewCell.m in Sources */,
 				849CBF4E1DB093D100DC7959 /* AppDelegate.m in Sources */,
+				849CBF9C1DB0C21B00DC7959 /* UserOrderManageTableViewCell.m in Sources */,
 				849CBF4B1DB093D100DC7959 /* main.m in Sources */,
+				849CBF8B1DB0B0C300DC7959 /* WSTableView.m in Sources */,
+				849CBFA61DB0D47500DC7959 /* UserOrderPayTableViewCell.m in Sources */,
+				849CBF8C1DB0B0C300DC7959 /* WSTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewTreeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thomas.TableViewTreeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewTreeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thomas.TableViewTreeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +584,7 @@
 				849CBF751DB093D100DC7959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849CBF761DB093D100DC7959 /* Build configuration list for PBXNativeTarget "TableViewTreeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +593,7 @@
 				849CBF781DB093D100DC7959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849CBF791DB093D100DC7959 /* Build configuration list for PBXNativeTarget "TableViewTreeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +602,7 @@
 				849CBF7B1DB093D100DC7959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
