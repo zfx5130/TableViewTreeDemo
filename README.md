@@ -3,8 +3,8 @@
 可折叠展开的tableview。
 
 #######实现效果图如下
-![](https://github.com/zfx5130/TableViewTreeDemo/blob/master/test1.gif)
-![](https://github.com/zfx5130/TableViewTreeDemo/blob/master/test.gif)
+![](https://github.com/zfx5130/TableViewTreeDemo/blob/master/test1.png)
+![](https://github.com/zfx5130/TableViewTreeDemo/blob/master/test.png)
 
 
 #######参考资料
